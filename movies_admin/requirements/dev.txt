@@ -1,4 +1,2 @@
 -r base.txt
-factory-boy==3.2.0
-Faker==8.1.1
 django-debug-toolbar==2.2

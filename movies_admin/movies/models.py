@@ -67,7 +67,6 @@ class Person(AbstractUUID):
     """ Люди """
     first_name = models.CharField(_("имя"), max_length=255)
     last_name = models.CharField(_("фамилия"), max_length=255)
-    uniq = models.CharField(max_length=255, blank=True, unique=True, null=True)
 
     class Meta:
         verbose_name = _("персонаж")
